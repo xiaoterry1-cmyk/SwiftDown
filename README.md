@@ -83,10 +83,6 @@ Use the [feature request form](../../issues/new?template=feature_request.yml) an
 - For usage questions, open the Welcome document from the Help menu, or [start a discussion](../../discussions).
 - For everything else, [open an issue](../../issues/new/choose).
 
-## Security
-
-If you find a potential security issue, please **do not** open a public issue. Report it privately through [GitHub private vulnerability reporting](../../security) instead.
-
 ## Privacy
 
 SwiftDown processes your documents locally, and all rendering resources are bundled with the app. It only makes network requests to load images your document links to on the web. When filing an issue, please don't attach documents that contain personal or confidential information.
