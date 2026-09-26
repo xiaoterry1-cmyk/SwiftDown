@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SwiftDown – Native Markdown Editor for macOS</title>
+  <meta name="description" content="SwiftDown is a native Markdown editor for macOS with WYSIWYG inline editing, live preview, code highlighting, math, and Mermaid diagrams. Everything works offline.">
+  <meta property="og:title" content="SwiftDown – Native Markdown Editor for macOS">
+  <meta property="og:description" content="WYSIWYG inline editing, live preview, code highlighting, math, and Mermaid diagrams. Everything works offline.">
+  <meta property="og:image" content="assets/icon.png">
+  <link rel="icon" type="image/png" href="assets/icon.png">
+  <link rel="alternate" hreflang="zh-Hans" href="zh/">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="./">
+        <img src="assets/icon.png" alt="" width="28" height="28">
+        <span>SwiftDown</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="#features">Features</a>
+        <a href="#modes">View modes</a>
+        <a href="#support">Support</a>
+        <a href="zh/" lang="zh-Hans" hreflang="zh-Hans">简体中文</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="container">
+        <img class="app-icon" src="assets/icon.png" alt="SwiftDown app icon" width="128" height="128">
+        <h1>Write Markdown.<br>See it as you type.</h1>
+        <p class="tagline">SwiftDown is a native Markdown editor for macOS. WYSIWYG inline editing, live preview, code highlighting, math, and Mermaid diagrams. Everything works offline.</p>
+        <div class="cta">
+          <!-- TODO: replace with your App Store link, e.g. https://apps.apple.com/app/id1234567890 -->
+          <a class="button primary" href="https://apps.apple.com/app/idXXXXXXXXXX">Download on the Mac App Store</a>
+          <a class="button secondary" href="https://github.com/xiaoterry1-cmyk/SwiftDown/issues">Feedback &amp; support</a>
+        </div>
+        <p class="requirements">Requires macOS 15 or later · Apple silicon and Intel</p>
+      </div>
+    </section>
+
+    <section id="features" class="alt" aria-labelledby="features-title">
+      <div class="container">
+        <h2 id="features-title">Everything you need to write</h2>
+        <p class="lead">A focused editor that handles plain notes, technical docs, and everything in between.</p>
+        <ul class="grid">
+          <li class="card">
+            <span class="emoji" aria-hidden="true">✍️</span>
+            <h3>Inline WYSIWYG editing</h3>
+            <p>Formatting renders right where you type. Select text for a floating toolbar, or use familiar shortcuts like ⌘B and ⌘I.</p>
+          </li>
+          <li class="card">
+            <span class="emoji" aria-hidden="true">🧩</span>
+            <h3>Tables made easy</h3>
+            <p>Edit cells in place and add rows and columns with a click, without counting pipes.</p>
+          </li>
+          <li class="card">
+            <span class="emoji" aria-hidden="true">💻</span>
+            <h3>Code highlighting</h3>
+            <p>Fenced code blocks get syntax highlighting in both the editor and preview.</p>
+          </li>
+          <li class="card">
+            <span class="emoji" aria-hidden="true">∑</span>
+            <h3>Math formulas</h3>
+            <p>Write inline <code>$...$</code> and block <code>$$...$$</code> formulas and see them rendered instantly.</p>
+          </li>
+          <li class="card">
+            <span class="emoji" aria-hidden="true">📊</span>
+            <h3>Mermaid diagrams</h3>
+            <p>Flowcharts, sequence diagrams, and more render directly from Mermaid code blocks.</p>
+          </li>
+          <li class="card">
+            <span class="emoji" aria-hidden="true">🗂️</span>
+            <h3>Heading folding</h3>
+            <p>Collapse long sections and promote or demote headings with ⌃⌘↑ / ⌃⌘↓.</p>
+          </li>
+          <li class="card">
+            <span class="emoji" aria-hidden="true">🖼️</span>
+            <h3>Local and web images</h3>
+            <p>Images with relative paths and images from the web both display inline.</p>
+          </li>
+          <li class="card">
+            <span class="emoji" aria-hidden="true">🔤</span>
+            <h3>Respects your files</h3>
+            <p>Encodings are detected automatically, and saving keeps the original encoding and line endings.</p>
+          </li>
+          <li class="card">
+            <span class="emoji" aria-hidden="true">📄</span>
+            <h3>Export to PDF</h3>
+            <p>Turn any document into a clean PDF with ⇧⌘E.</p>
+          </li>
+          <li class="card">
+            <span class="emoji" aria-hidden="true">🎨</span>
+            <h3>Make it yours</h3>
+            <p>Adjust font size, line height, image sizes, table style, and colors. The editor and preview stay in step.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="modes" aria-labelledby="modes-title">
+      <div class="container">
+        <h2 id="modes-title">Four ways to view</h2>
+        <p class="lead">Switch any time from the View menu or with a shortcut. Each file remembers the mode you last used.</p>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th scope="col">Mode</th>
+                <th scope="col">Shortcut</th>
+                <th scope="col">What it does</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td>Source</td><td><kbd>⌘1</kbd></td><td>Plain Markdown with syntax coloring</td></tr>
+              <tr><td>Split</td><td><kbd>⌘2</kbd></td><td>Editor and preview side by side, scrolling in sync</td></tr>
+              <tr><td>Preview</td><td><kbd>⌘3</kbd></td><td>Rendered output only</td></tr>
+              <tr><td>Inline</td><td><kbd>⌘4</kbd></td><td>WYSIWYG editing, the default mode</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="note">Inline mode is available for files up to 64 KB. Larger files open in Split mode.</p>
+      </div>
+    </section>
+
+    <section class="alt" aria-labelledby="privacy-title">
+      <div class="container">
+        <h2 id="privacy-title">Light, fast, and private</h2>
+        <p class="lead">A native Mac app that stays out of your way and keeps your documents to yourself.</p>
+        <ul class="grid">
+          <li class="card">
+            <span class="emoji" aria-hidden="true">🪶</span>
+            <h3>Lightweight by design</h3>
+            <p>Built with native macOS technologies instead of a bundled browser engine, so it stays small and easy on memory and battery.</p>
+          </li>
+          <li class="card">
+            <span class="emoji" aria-hidden="true">🚀</span>
+            <h3>Smooth at any size</h3>
+            <p>Multi-megabyte documents open smoothly, and parsing runs in the background so typing and scrolling never stall.</p>
+          </li>
+          <li class="card">
+            <span class="emoji" aria-hidden="true">🔒</span>
+            <h3>Your documents stay on your Mac</h3>
+            <p>Everything is processed locally, with all rendering resources bundled in the app. The only network requests load images your documents link to on the web.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="support" aria-labelledby="support-title">
+      <div class="container">
+        <h2 id="support-title">Feedback and support</h2>
+        <p class="lead">Found a bug or have an idea? We track everything in the open on GitHub.</p>
+        <div class="cta">
+          <a class="button primary" href="https://github.com/xiaoterry1-cmyk/SwiftDown/issues/new?template=bug_report.yml">Report a bug</a>
+          <a class="button secondary" href="https://github.com/xiaoterry1-cmyk/SwiftDown/issues/new?template=feature_request.yml">Suggest an idea</a>
+          <a class="button secondary" href="https://github.com/xiaoterry1-cmyk/SwiftDown/issues">Browse issues</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <span>© 2026 SwiftDown</span>
+      <nav aria-label="Footer">
+        <a href="https://github.com/xiaoterry1-cmyk/SwiftDown">GitHub</a>
+        <a href="zh/" lang="zh-Hans" hreflang="zh-Hans">简体中文</a>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>
