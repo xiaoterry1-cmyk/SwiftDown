@@ -203,3 +203,28 @@ td kbd, th kbd {
 }
 .site-footer nav { display: flex; flex-wrap: wrap; gap: 16px; }
 .site-footer a { color: var(--muted); }
+
+/* Long-form pages (privacy policy) */
+.prose {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 56px 24px 72px;
+}
+.prose h1 {
+  font-size: clamp(32px, 5vw, 44px);
+  line-height: 1.15;
+  margin: 0 0 8px;
+  letter-spacing: -0.02em;
+}
+.prose .updated { color: var(--muted); font-size: 15px; margin: 0 0 32px; }
+.prose h2 { font-size: 22px; margin: 40px 0 8px; }
+.prose p, .prose li { color: var(--text); }
+.prose ul { padding-left: 1.2em; }
+.prose li + li { margin-top: 6px; }
+.prose .summary {
+  background: var(--bg-alt);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px 24px;
+}
+.prose .summary p { margin: 0; }
