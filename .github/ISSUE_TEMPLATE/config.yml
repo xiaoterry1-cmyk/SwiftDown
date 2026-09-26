@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions and discussion
+    url: https://github.com/xiaoterry1-cmyk/SwiftDown/discussions
+    about: Ask usage questions and share ideas with the community.
+  - name: Report a security vulnerability
+    url: https://github.com/xiaoterry1-cmyk/SwiftDown/security/advisories/new
+    about: Please report security issues privately, not as public issues.
