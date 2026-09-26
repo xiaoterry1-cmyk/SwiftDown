@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/icon.png" alt="SwiftDown app icon" width="128" height="128">
+</p>
+
 <h1 align="center">SwiftDown</h1>
 
 <p align="center">
@@ -81,7 +85,7 @@ Use the [feature request form](../../issues/new?template=feature_request.yml) an
 
 ## Security
 
-If you find a potential security issue, please **do not** open a public issue. Report it privately through [GitHub private vulnerability reporting](../../security/advisories/new) instead.
+If you find a potential security issue, please **do not** open a public issue. Report it privately through [GitHub private vulnerability reporting](../../security) instead.
 
 ## Privacy
 
