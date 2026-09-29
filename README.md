@@ -34,7 +34,7 @@ Use the [bug report form](../../issues/new?template=bug_report.yml). The more of
 
 - SwiftDown version (SwiftDown → About SwiftDown)
 - macOS version and Mac type (Apple silicon or Intel)
-- The view mode you were in: Source (⌘1), Split (⌘2), Preview (⌘3), or Inline (⌘4)
+- The view mode you were in: Inline (⌘1), Source (⌘2), Split (⌘3), or Preview (⌘4)
 - Steps to reproduce, what you expected, and what actually happened
 - A minimal Markdown snippet that reproduces the problem (remove anything sensitive)
 - Screenshots or a screen recording, and a crash report if the app crashed
