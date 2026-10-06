@@ -55,16 +55,21 @@ Use the [feature request form](../../issues/new?template=feature_request.yml) an
 
 | Feature | Details |
 | --- | --- |
-| Four view modes | Source, Split (synced scrolling), Preview, and Inline WYSIWYG. Each file remembers its last mode |
+| Four view modes | Inline WYSIWYG (⌘1), Source (⌘2), Split with synced scrolling (⌘3), and Preview (⌘4). ⌘/ switches between the two most recent modes. Each file remembers its last mode |
 | Formatting | Floating toolbar on selection, a window toolbar, and keyboard shortcuts |
+| Outline | Sidebar listing every heading (⌃⌘S); click to jump |
 | Heading folding | Fold sections in Inline mode; promote or demote with ⌃⌘↑ / ⌃⌘↓ |
 | Table editing | Edit cells in place and add rows and columns in Inline mode |
 | Code blocks | Syntax highlighting for fenced code blocks |
 | Math | Inline `$...$` and block `$$...$$` formulas |
-| Mermaid | Diagrams render in both the editor and preview |
-| Images | Local images with relative paths and images from the web |
+| Mermaid | Diagrams render in both the editor and preview, with a zoomable viewer |
+| HTML | README-style HTML: centered logos, badges, details blocks, and HTML tables |
+| Images | Local images with relative paths and images from the web. Pasted or dropped images are saved to a `.assets` folder next to the document |
 | Encodings | Automatic encoding detection; saving keeps the original encoding and line endings |
-| Large files | Multi-megabyte documents open smoothly, with parsing in the background |
+| External changes | Files changed by another app reload automatically; unsaved edits are never overwritten without asking |
+| Quick Look | Rendered previews and thumbnails for `.md` files in Finder |
+| Appearance | Fonts, font size, line height, and colors; Source mode can use its own font |
+| Large files | Multi-megabyte documents open smoothly, with parsing in the background. Inline mode is available for files up to 170 KB |
 | Export | Export to PDF (⇧⌘E) |
 | Offline | Everything needed for preview, highlighting, math, and diagrams ships inside the app |
 

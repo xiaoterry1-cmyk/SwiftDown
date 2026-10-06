@@ -11,7 +11,7 @@ body:
     attributes:
       label: SwiftDown version
       description: SwiftDown → About SwiftDown
-      placeholder: "1.0.0"
+      placeholder: "1.0.1"
     validations:
       required: true
   - type: input
@@ -37,10 +37,10 @@ body:
       description: Which mode were you in when the problem happened?
       multiple: true
       options:
-        - Source (⌘1)
-        - Split (⌘2)
-        - Preview (⌘3)
-        - Inline (⌘4)
+        - Inline (⌘1)
+        - Source (⌘2)
+        - Split (⌘3)
+        - Preview (⌘4)
         - Not related to a view mode
   - type: textarea
     id: steps
